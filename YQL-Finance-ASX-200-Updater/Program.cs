@@ -272,7 +272,7 @@ namespace YQL_Finance_ASX_200_Updater
                         myMail.SubjectEncoding = System.Text.Encoding.UTF8;
 
                         // set body-message and encoding
-                        myMail.Body = "<b>" + quote.Name.ToString() + " has dropped below 5% Today (" + quote.ChangePercent + ") </b>.";
+                        myMail.Body = "<b>" + quote.Name.ToString() + " has dropped below 5% Today (" + quote.ChangePercent.ToString() + ") </b>.";
                         myMail.BodyEncoding = System.Text.Encoding.UTF8;
                         // text or html
                         myMail.IsBodyHtml = true;

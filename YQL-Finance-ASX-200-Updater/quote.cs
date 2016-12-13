@@ -512,7 +512,7 @@ namespace YQL_Finance_ASX_200_Updater.Models
         }
 
 
-        public decimal? ChangePercent
+        public decimal? ChangeInPercent
         {
             get { return changePercent; }
             set
